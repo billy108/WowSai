@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+        >
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+            <ImageView
+                    android:id="@+id/activity_pic_news_detail_photoView"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/length_400"
+                    android:layout_gravity="center"
+                    android:background="@drawable/sgk_img_default_steppic"
+                    android:scaleType="fitXY"
+                    />
+
+            <TextView
+                    android:id="@+id/activity_course_all_detail_step_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:padding="@dimen/length_10"
+                    android:text="将左手放到右手上\n一起动动"
+                    android:textColor="@color/black"
+                    />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+            android:layout_marginTop="@dimen/length_15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            >
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sgk_course_step_icon"
+                />
+
+        <TextView
+                android:id="@+id/activity_course_all_detail_step_number"
+                android:layout_marginLeft="@dimen/length_5"
+                android:layout_marginBottom="@dimen/length_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="步骤1/9"
+                android:textColor="@color/white"
+                />
+    </LinearLayout>
+
+
+</RelativeLayout>

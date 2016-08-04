@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_marginTop="@dimen/length_20"
+              android:background="@color/white"
+        >
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+        <com.qianfeng.wowsai.view.custom.CircleImageView
+                android:id="@+id/item_user_hand_circle_userHead"
+                android:layout_width="@dimen/length_40"
+                android:layout_height="@dimen/length_40"
+                android:layout_marginLeft="@dimen/length_10"
+                android:layout_marginRight="@dimen/length_10"
+                android:layout_marginTop="@dimen/length_20"
+                android:src="@drawable/sgk_icon_courseclassify_defaul"
+                />
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@id/item_user_hand_circle_userHead"
+                >
+
+            <TextView
+                    android:id="@+id/item_user_hand_circle_userName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="喋喋不休"
+                    android:layout_marginTop="@dimen/length_20"
+                    android:layout_marginBottom="@dimen/length_10"
+                    android:textColor="@color/red"
+                    />
+
+            <TextView
+                    android:id="@+id/item_user_hand_circle_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="可以吃的冰块"
+                    android:layout_marginBottom="@dimen/length_10"
+                    />
+            <ImageView
+                    android:id="@+id/item_user_hand_circle_photo"
+                    android:layout_width="@dimen/length_200"
+                    android:layout_height="@dimen/length_300"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/sgk_img_default_big"
+                    />
+
+            <TextView
+                    android:id="@+id/item_user_hand_circle_addTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/length_10"
+                    android:text="2小时前"
+                    />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

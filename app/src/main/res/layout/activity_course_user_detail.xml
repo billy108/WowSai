@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+        >
+
+    <ScrollView
+            android:id="@+id/activity_course_user_detail_scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:scrollbars="none"
+            >
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+            <LinearLayout
+                    android:id="@+id/activity_course_user_detail_topView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/courseListItemHeight"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@color/light_black"
+                        >
+
+                    <LinearLayout
+                            android:id="@+id/noUseLinearLayout"
+                            android:layout_centerInParent="true"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            >
+
+                        <ImageView
+                                android:id="@+id/activity_course_user_detail_sendLetter"
+                                android:layout_width="@dimen/length_60"
+                                android:layout_height="@dimen/length_60"
+                                android:src="@drawable/sgk_userhome_letter"
+                                />
+
+                        <com.qianfeng.wowsai.view.custom.CircleImageView
+                                android:id="@+id/activity_course_user_detail_userHeadPic"
+                                android:layout_width="@dimen/length_100"
+                                android:layout_height="@dimen/length_100"
+                                android:layout_marginRight="@dimen/length_30"
+                                android:layout_marginLeft="@dimen/length_30"
+                                android:src="@drawable/sgk_icon_userheader_defaut_circle"
+                                />
+
+                        <ImageView
+                                android:id="@+id/activity_course_user_detail_attent_no"
+                                android:layout_width="@dimen/length_60"
+                                android:layout_height="@dimen/length_60"
+                                android:src="@drawable/sgk_userhome_attent_no"
+                                />
+
+                    </LinearLayout>
+
+                    <TextView
+                            android:id="@+id/activity_course_user_detail_userName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="New Text"
+                            android:layout_below="@+id/noUseLinearLayout"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="20dp"
+                            android:textColor="@color/white"
+                            />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:padding="@dimen/length_5"
+                    >
+
+                <TextView
+                        android:id="@+id/activity_course_user_detail_fen"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="2091粉丝"
+                        />
+
+                <ImageView
+                        android:layout_width="@dimen/length_1"
+                        android:layout_height="@dimen/length_40"
+                        android:src="@drawable/slidetab_bg_press"
+                        android:layout_marginLeft="@dimen/length_10"
+                        android:layout_marginRight="@dimen/length_10"
+
+                        />
+
+                <TextView
+                        android:id="@+id/activity_course_user_detail_guan"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="95关注"
+                        />
+            </LinearLayout>
+
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/length_5"
+                    android:background="@color/listGap"
+                    />
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="@dimen/length_5"
+                    android:paddingTop="@dimen/length_5"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    >
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        >
+
+                    <LinearLayout
+                            android:id="@+id/activity_course_user_detail_hand_circle_linear"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_marginLeft="@dimen/length_10"
+                            android:gravity="center"
+                            >
+
+                        <TextView
+                                android:id="@+id/activity_course_user_detail_hand_circle_txt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" 手 工 圈"
+                                android:gravity="center"
+                                android:textColor="@color/red"
+                                />
+                    </LinearLayout>
+
+                    <ImageView
+                            android:layout_width="@dimen/length_1"
+                            android:layout_height="@dimen/length_40"
+                            android:src="@drawable/slidetab_bg_press"
+                            android:layout_marginLeft="@dimen/length_10"
+                            android:layout_marginRight="@dimen/length_10"
+
+                            />
+
+                    <LinearLayout
+                            android:id="@+id/activity_course_user_detail_release_course_linear"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            >
+
+                        <TextView
+                                android:id="@+id/activity_course_user_detail_release_course_txt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text=" 发布教程"
+                                />
+                    </LinearLayout>
+
+                    <ImageView
+                            android:layout_width="@dimen/length_1"
+                            android:layout_height="@dimen/length_40"
+                            android:src="@drawable/slidetab_bg_press"
+                            android:layout_marginLeft="@dimen/length_10"
+                            android:layout_marginRight="@dimen/length_10"
+                            />
+
+                    <LinearLayout
+                            android:id="@+id/activity_course_user_detail_hand_circle_collect_linear"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            >
+
+                        <TextView
+                                android:id="@+id/activity_course_user_detail_hand_circle_collect_txt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="手工收藏"
+                                android:gravity="center"
+                                />
+                    </LinearLayout>
+
+                    <ImageView
+                            android:layout_width="@dimen/length_1"
+                            android:layout_height="@dimen/length_40"
+                            android:src="@drawable/slidetab_bg_press"
+                            android:layout_marginLeft="@dimen/length_10"
+                            android:layout_marginRight="@dimen/length_10"
+
+                            />
+
+                    <LinearLayout
+                            android:id="@+id/activity_course_user_detail_collect_course_linear"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            >
+
+
+                        <TextView
+                                android:id="@+id/activity_course_user_detail_collect_course_txt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="教程收藏"
+                                android:gravity="center"
+                                />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <com.qianfeng.wowsai.view.custom.ScllorTabView
+                        android:id="@+id/activity_course_user_detail_collect_course_bottomBar"
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+
+                        />
+            </LinearLayout>
+            <!-- </HorizontalScrollView>-->
+
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/length_5"
+                    android:background="@color/listGap"
+                    />
+
+            <com.qianfeng.wowsai.view.custom.Myviewpage
+                    android:id="@+id/activity_course_user_detail_viewPager"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/length_430"
+                    />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

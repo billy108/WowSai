@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+        >
+
+    <LinearLayout
+            android:id="@+id/linearLayout_rank_more"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/tab_click"
+            >
+
+        <ImageView
+                android:id="@+id/imageView_rank_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/rank_m"
+                android:layout_marginLeft="10dp"
+                />
+
+        <TextView
+                android:id="@+id/textView_rank_title"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="人气最高达人"
+                android:textSize="@dimen/txt_size_m"
+                android:layout_marginLeft="8dp"
+                android:textColor="@color/green"
+                />
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/arrow_right"
+                android:layout_marginRight="10dp"
+                />
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/linearLayout_rank_show"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            >
+    </LinearLayout>
+
+</LinearLayout>

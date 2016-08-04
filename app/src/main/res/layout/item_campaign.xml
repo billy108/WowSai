@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <ImageView
+            android:id="@+id/imageView_item_campaign_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            />
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_marginRight="@dimen/courseListItemMarginLeftRight"
+            android:layout_marginLeft="@dimen/courseListItemMarginLeftRight"
+            android:layout_marginTop="@dimen/courseListItemMarginTopBottom"
+            android:layout_marginBottom="@dimen/courseListItemMarginTopBottom"
+            >
+        <TextView
+                android:id="@+id/textView_item_campaign_cName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gray"
+                />
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/courseListItemMarginLeftRight"
+                >
+            <TextView
+                    android:id="@+id/textView_item_campaign_time"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/gray"
+                    />
+            <TextView
+                    android:id="@+id/textView_item_campaign_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

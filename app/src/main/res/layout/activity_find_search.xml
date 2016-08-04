@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/TitleHeight"
+            android:background="@color/red"
+            >
+        <com.qianfeng.wowsai.view.custom.CustomEditText
+                android:id="@+id/editText_search_keyword"
+                android:layout_gravity="center"
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="35dp"
+                android:hint="@string/find_search_input"
+                android:drawableLeft="@drawable/search_pressed"
+                android:drawableRight="@drawable/edit_clear"
+                android:background="@drawable/edit_shape"
+                android:layout_marginLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                />
+        <TextView
+                android:id="@+id/textView_search_search"
+                android:clickable="true"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="@string/find_search"
+                android:textSize="@dimen/txt_size_m"
+                android:gravity="center"
+                android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <com.qianfeng.wowsai.view.custom.PinnedHeaderListView
+            android:id="@+id/listView_search_show"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+</LinearLayout>

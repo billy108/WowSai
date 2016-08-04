@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+        >
+
+    <LinearLayout
+            android:id="@+id/linearLayout_custom_refresh_loading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/custom_refresh_load"
+                />
+
+        <TextView
+                android:id="@+id/textView_custom_refresh_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+    </LinearLayout>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+        <android.support.v4.widget.SwipeRefreshLayout
+                android:id="@+id/swipeRefreshLayout_custom_refresh"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+            <GridView
+                    android:id="@+id/gridView_custom_refresh"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scrollbars="none"
+                    android:listSelector="#ffff"
+                    >
+            </GridView>
+
+
+        </android.support.v4.widget.SwipeRefreshLayout>
+        <ImageView
+                android:id="@+id/imageView_custom_refresh_backToTop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/lv_backtotop"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="@dimen/imgTopMargin"
+                android:layout_marginRight="@dimen/imgTopMargin"
+                android:visibility="gone"
+                />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res/com.qianfeng.wowsai"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        >
+    <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/swipeRefreshLayout_findHomeFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+    <ScrollView
+            android:id="@+id/scrollView_findHomeFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            >
+
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+
+                <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                    <android.support.v4.view.ViewPager
+                            android:id="@+id/viewPager_findHomeFragment_slide"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            />
+
+                    <LinearLayout
+                            android:id="@+id/linearLayout_findHomeFragment_dots"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/dotsLayoutHeight"
+                            android:gravity="center"
+                            android:background="@color/dotsLayoutBg"
+                            android:orientation="horizontal"
+                            android:layout_gravity="bottom"
+                            >
+
+                    </LinearLayout>
+                </FrameLayout>
+
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/paddingTitle"
+                        android:paddingBottom="@dimen/paddingTitle"
+                        >
+
+                    <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            >
+
+                        <com.qianfeng.wowsai.view.custom.CircleImageView
+                                android:id="@+id/circleImageView_findHomeFragment_nav1"
+                                android:layout_width="@dimen/navSize"
+                                android:layout_height="@dimen/navSize"
+                                />
+
+                        <TextView
+                                android:id="@+id/textView_findHomeFragment_nav1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                    </LinearLayout>
+
+                    <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            >
+
+                        <com.qianfeng.wowsai.view.custom.CircleImageView
+                                android:id="@+id/circleImageView_findHomeFragment_nav2"
+                                android:layout_width="@dimen/navSize"
+                                android:layout_height="@dimen/navSize"
+                                />
+
+                        <TextView
+                                android:id="@+id/textView_findHomeFragment_nav2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                    </LinearLayout>
+
+                    <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            >
+
+                        <com.qianfeng.wowsai.view.custom.CircleImageView
+                                android:id="@+id/circleImageView_findHomeFragment_nav3"
+                                android:layout_width="@dimen/navSize"
+                                android:layout_height="@dimen/navSize"
+                                />
+
+                        <TextView
+                                android:id="@+id/textView_findHomeFragment_nav3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/lineSize"
+                        android:background="@color/lineColor"
+                        />
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                    <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            >
+
+                        <ImageView
+                                android:id="@+id/imageView_findHomeFragment_advImg1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:scaleType="centerCrop"
+                                />
+                    </LinearLayout>
+
+                    <View
+                            android:layout_width="@dimen/lineSize"
+                            android:layout_height="match_parent"
+                            android:background="@color/lineColor"
+                            />
+
+                    <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            >
+
+                        <ImageView
+                                android:id="@+id/imageView_findHomeFragment_advImg2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:scaleType="centerCrop"
+                                />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!--<View
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/dividerHeight"
+                        android:background="@color/listGap"
+                        />
+
+                <LinearLayout
+                        android:id="@+id/linearLayout_findHomeFragment_classes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/paddingTitle"
+                        android:gravity="center_vertical"
+                        android:background="@drawable/tab_click"
+                        >
+
+                    <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="@string/classes"
+                            />
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/home_arrow"
+                            />
+                </LinearLayout>
+
+                <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/lineSize"
+                        android:background="@color/lineColor"
+                        />
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                    <com.qianfeng.wowsai.view.custom.MyGridView
+                            android:id="@+id/myGridView_findHomeFragment_classes"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:horizontalSpacing="@dimen/gridViewGap"
+                            android:verticalSpacing="@dimen/gridViewGap"
+                            android:numColumns="2"
+                            >
+                    </com.qianfeng.wowsai.view.custom.MyGridView>
+                </LinearLayout>-->
+
+                <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dividerHeight"
+                        android:background="@color/listGap"
+                        />
+
+                <LinearLayout
+                        android:id="@+id/linearLayout_findHomeFragment_daren"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/paddingTitle"
+                        android:gravity="center_vertical"
+                        android:background="@drawable/tab_click"
+                        >
+
+                    <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="@string/daren"
+                            />
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/home_arrow"
+                            />
+                </LinearLayout>
+
+                <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/lineSize"
+                        android:background="@color/lineColor"
+                        />
+
+
+                <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/paddingDarenBg"
+                        android:paddingRight="@dimen/paddingDarenBg"
+                        android:paddingBottom="@dimen/paddingDarenBg"
+                        >
+
+                    <ImageView
+                            android:id="@+id/imageView_findHomeFragment_darenBg"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            />
+
+                    <LinearLayout
+                            android:id="@+id/linearLayout_findHomeFragment_darenBg"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:gravity="center_horizontal"
+                            android:paddingBottom="@dimen/darenMarginBottom"
+                            android:paddingTop="@dimen/gridViewGap"
+                            >
+
+                        <com.qianfeng.wowsai.view.custom.CircleImageView
+                                android:id="@+id/circleImageView_findHomeFragment_daren"
+                                android:layout_width="@dimen/darenSize"
+                                android:layout_height="@dimen/darenSize"
+                                app:border_width="@dimen/headImgBorder"
+                                app:border_color="@color/white"
+                                />
+
+                        <TextView
+                                android:id="@+id/textView_findHomeFragment_uName"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/white"
+                                android:padding="@dimen/paddingDarenBg"
+                                />
+
+                        <TextView
+                                android:id="@+id/textView_findHomeFragment_region"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/darenInfoSize"
+                                android:padding="@dimen/smallTextPadding"
+                                />
+
+                        <TextView
+                                android:id="@+id/textView_findHomeFragment_otherInfo"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/darenInfoSize"
+                                android:padding="@dimen/smallTextPadding"
+                                />
+
+                        <TextView
+                                android:id="@+id/textView_findHomeFragment_guanStatus"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/white"
+                                android:gravity="center"
+                                android:background="@drawable/guan_text_bg"
+                                android:layout_marginTop="@dimen/guanTopMargin"
+                                />
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/dividerHeight"
+                        android:background="@color/listGap"
+                        />
+
+                <LinearLayout
+                        android:id="@+id/linearLayout_findHomeFragment_topic"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/paddingTitle"
+                        android:gravity="center_vertical"
+                        android:background="@drawable/tab_click"
+                        >
+
+                    <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="@string/topic"
+                            />
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/home_arrow"
+                            />
+                </LinearLayout>
+
+                <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/lineSize"
+                        android:background="@color/lineColor"
+                        />
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                    <com.qianfeng.wowsai.view.custom.MyGridView
+                            android:id="@+id/myGridView_findHomeFragment_topic"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:listSelector="@color/translate"
+                            android:paddingRight="@dimen/itemPadding"
+                            android:paddingLeft="@dimen/itemPadding"
+                            >
+                    </com.qianfeng.wowsai.view.custom.MyGridView>
+                </LinearLayout>
+
+                <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/dividerHeight"
+                        android:background="@color/listGap"
+                        />
+
+                <LinearLayout
+                        android:id="@+id/linearLayout_findHomeFragment_course"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/paddingTitle"
+                        android:gravity="center_vertical"
+                        android:background="@drawable/tab_click"
+                        >
+
+                    <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="@string/course"
+                            />
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/home_arrow"
+                            />
+                </LinearLayout>
+
+                <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/lineSize"
+                        android:background="@color/lineColor"
+                        />
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                    <com.qianfeng.wowsai.view.custom.MyGridView
+                            android:id="@+id/myGridView_findHomeFragment_course"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:horizontalSpacing="@dimen/gridViewGap"
+                            android:verticalSpacing="@dimen/gridViewGap"
+                            android:numColumns="2"
+                            android:paddingRight="@dimen/itemPadding"
+                            android:paddingLeft="@dimen/itemPadding"
+                            android:listSelector="@color/translate"
+                            >
+                    </com.qianfeng.wowsai.view.custom.MyGridView>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+    </ScrollView>
+</android.support.v4.widget.SwipeRefreshLayout>
+
+<ImageView
+        android:id="@+id/imageView_findHomeFragment_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        />
+
+</FrameLayout>

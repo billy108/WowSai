@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res/com.qianfeng.wowsai"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+        >
+    <com.qianfeng.wowsai.view.custom.CustomRefreshGridView
+            android:id="@+id/customRefreshGridView_workListFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:column_num="2"
+            >
+    </com.qianfeng.wowsai.view.custom.CustomRefreshGridView>
+
+    <ImageView
+            android:id="@+id/imageView_campaignStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="50dp"
+            />
+
+</FrameLayout>

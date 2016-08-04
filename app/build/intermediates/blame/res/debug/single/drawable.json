@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dot.xml",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable\\dot.xml"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\login_pressed.xml",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable\\login_pressed.xml"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_stoke.xml",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable\\shape_stoke.xml"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\loginbtn.xml",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable\\loginbtn.xml"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_stoke_red.xml",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable\\shape_stoke_red.xml"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\login_normal.xml",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable\\login_normal.xml"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbtn.xml",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable\\checkbtn.xml"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\skyblue_platform_list_item.xml",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable\\skyblue_platform_list_item.xml"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\skyblue_platform_list_selector.xml",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable\\skyblue_platform_list_selector.xml"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\skyblue_platform_list_item_selected.xml",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable\\skyblue_platform_list_item_selected.xml"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\classic_platform_corners_bg.xml",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable\\classic_platform_corners_bg.xml"
+    }
+]

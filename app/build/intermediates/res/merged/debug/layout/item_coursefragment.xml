@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res/com.qianfeng.wowsai"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingBottom="@dimen/courseListItemMarginTopBottom"
+              android:paddingTop="@dimen/courseListItemMarginTopBottom"
+              android:paddingLeft="@dimen/courseListItemMarginLeftRight"
+              android:paddingRight="@dimen/courseListItemMarginLeftRight"
+              android:background="@color/white"
+        >
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+        <ImageView
+                android:id="@+id/networkImageView_courseFragment_host"
+                android:layout_marginTop="@dimen/imgTopMargin"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/courseListItemHeight"
+                android:scaleType="centerCrop"
+                android:src="@drawable/sgk_img_default_big"
+                />
+        <com.qianfeng.wowsai.view.custom.CircleImageView
+                android:id="@+id/circleImageView_item_courseFragment_head"
+                android:layout_width="@dimen/headImgSize"
+                android:layout_height="@dimen/headImgSize"
+                android:src="@drawable/sgk_img_default_big"
+                app:border_width="@dimen/headImgBorder"
+                app:border_color="@color/white"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/headImgMarginRight"
+                />
+        <TextView
+                android:id="@+id/textView_item_courseFragment_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/circleImageView_item_courseFragment_head"
+                />
+    </RelativeLayout>
+
+    <TextView
+            android:id="@+id/textView_item_courseFragment_subject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/courseListItemMarginLeftRight"
+            />
+
+    <TextView
+            android:id="@+id/textView_item_courseFragment_otherInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/courseListItemMarginLeftRight"
+            android:textColor="@color/smallSizeColor"
+            android:textSize="@dimen/smallSize"
+            />
+
+    
+
+</LinearLayout>

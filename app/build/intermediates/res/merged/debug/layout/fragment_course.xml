@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res/com.qianfeng.wowsai"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="@color/listGap"
+        >
+
+    <com.qianfeng.wowsai.view.custom.CustomRefreshListView
+            android:id="@+id/customRefreshListView_courseFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:divider_color="@color/listGap"
+            app:divider_height="@dimen/dividerHeight"
+            >
+    </com.qianfeng.wowsai.view.custom.CustomRefreshListView>
+
+</LinearLayout>

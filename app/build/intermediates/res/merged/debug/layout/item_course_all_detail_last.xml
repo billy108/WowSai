@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+        android:padding="@dimen/length_10"
+        >
+
+    <com.qianfeng.wowsai.view.custom.CircleImageView
+            android:id="@+id/item_course_all_detail_last_listView_userPhoto"
+            android:layout_width="@dimen/length_40"
+            android:layout_height="@dimen/length_40"
+            android:layout_marginRight="@dimen/length_10"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/sgk_icon_courseclassify_defaul"
+            />
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            >
+
+        <TextView
+                android:id="@+id/item_course_all_detail_last_listView_userName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="天王盖地虎"
+                />
+
+        <TextView
+                android:id="@+id/item_course_all_detail_last_listView_userText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="小鸡炖蘑菇"
+                />
+    </LinearLayout>
+
+    <TextView
+            android:id="@+id/item_course_all_detail_last_listView_addTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1小时之前"
+            android:textColor="@color/gray"
+            />
+</LinearLayout>

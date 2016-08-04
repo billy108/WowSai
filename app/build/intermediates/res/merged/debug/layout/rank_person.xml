@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout
+            android:id="@+id/linearLayout_rank_person"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            >
+
+        <com.qianfeng.wowsai.view.custom.CircleImageView
+                android:id="@+id/imageView_rank_usericon"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/ic_launcher"
+                android:layout_marginTop="10dp"
+                />
+
+        <TextView
+                android:id="@+id/textView_rank_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:text="xingming"
+                android:textSize="14sp"
+                android:maxLength="5"
+                />
+    </LinearLayout>
+
+    <ImageView
+            android:id="@+id/imageView_rank_course"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_launcher"
+            android:scaleType="centerCrop"
+            />
+</LinearLayout>

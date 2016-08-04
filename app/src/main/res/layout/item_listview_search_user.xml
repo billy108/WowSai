@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+        >
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            >
+
+        <FrameLayout
+                android:layout_marginLeft="15dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:padding="6dp"
+                >
+
+            <com.qianfeng.wowsai.view.custom.CircleImageView
+                    android:id="@+id/imageView_search_user"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_launcher"
+                    android:layout_gravity="center"
+                    />
+
+            <com.qianfeng.wowsai.view.custom.CircleImageView
+                    android:id="@+id/imageView_search_user_vip"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="bottom|right"
+                    android:src="@drawable/vip"
+                    />
+
+        </FrameLayout>
+
+        <TextView
+                android:id="@+id/textView_search_user_name"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:textSize="@dimen/txt_size_m"
+                android:text="傀儡娃娃"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:clickable="true"
+                />
+
+        <ImageView
+                android:id="@+id/imageView_search_user_guanzhu"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="12dp"
+                android:src="@drawable/sgk_icon_attention_no_list"
+                />
+    </LinearLayout>
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray"/>
+
+    <LinearLayout
+            android:id="@+id/linearLayout_search_user_more"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:clickable="true"
+            android:background="@drawable/tab_click"
+            >
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="查看更多"
+                android:textSize="@dimen/txt_size_m"
+                android:gravity="center"
+                />
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/arrow_right"
+                />
+    </LinearLayout>
+
+</LinearLayout>

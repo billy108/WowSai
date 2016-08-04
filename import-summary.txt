@@ -1,0 +1,420 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\.name
+* .idea\codeStyleSettings.xml
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\encodings.xml
+* .idea\inspectionProfiles\
+* .idea\inspectionProfiles\Project_Default.xml
+* .idea\inspectionProfiles\profiles_settings.xml
+* .idea\libraries\
+* .idea\libraries\xUtils_2_6_13.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\scopes\
+* .idea\scopes\scope_settings.xml
+* .idea\uiDesigner.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* WowSai.iml
+* ant.properties
+* build.xml
+* out\
+* out\production\
+* out\production\WowSai\
+* out\production\WowSai\WowSai.apk
+* out\production\WowSai\WowSai.unaligned.apk
+* out\production\WowSai\cn\
+* out\production\WowSai\cn\sharesdk\
+* out\production\WowSai\cn\sharesdk\demo\
+* out\production\WowSai\cn\sharesdk\demo\wxapi\
+* out\production\WowSai\cn\sharesdk\demo\wxapi\WXEntryActivity.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\
+* out\production\WowSai\cn\sharesdk\onekeyshare\CustomerLogo.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\EditPageFakeActivity$1.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\EditPageFakeActivity$ImageInfo.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\EditPageFakeActivity$ImageListResultsCallback.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\EditPageFakeActivity.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\FollowerListFakeActivity$FollowersResult.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\FollowerListFakeActivity$Following.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\FollowerListFakeActivity.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\OnekeyShare$1.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\OnekeyShare.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\OnekeyShareTheme.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\PicViewer.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\PlatformListFakeActivity$1.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\PlatformListFakeActivity$OnShareButtonClickListener.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\PlatformListFakeActivity.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\Shake2Share$OnShakeListener.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\Shake2Share.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\ShareContentCustomizeCallback.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\ShareCore.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\ThemeShareCallback.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\theme\
+* out\production\WowSai\cn\sharesdk\onekeyshare\theme\classic\
+* out\production\WowSai\cn\sharesdk\onekeyshare\theme\classic\EditPage$1$1.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\theme\classic\EditPage$1.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\theme\classic\EditPage$2.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\theme\classic\EditPage$3.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\theme\classic\EditPage$4.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\theme\classic\EditPage$5.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\theme\classic\EditPage$6.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\theme\classic\EditPage$7.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\theme\classic\EditPage$8.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\theme\classic\EditPage.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\theme\classic\FollowListPage$1.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\theme\classic\FollowListPage$FollowAdapter.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\theme\classic\FollowListPage$FollowListItem.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\theme\classic\FollowListPage$PRTHeader.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\theme\classic\FollowListPage$RotateImageView.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\theme\classic\FollowListPage.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\theme\classic\PlatformGridView$1.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\theme\classic\PlatformGridView$GridView.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\theme\classic\PlatformGridView$PlatformAdapter.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\theme\classic\PlatformGridView.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\theme\classic\PlatformListPage$1.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\theme\classic\PlatformListPage$2.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\theme\classic\PlatformListPage.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\theme\skyblue\
+* out\production\WowSai\cn\sharesdk\onekeyshare\theme\skyblue\EditPage$1.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\theme\skyblue\EditPage$2.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\theme\skyblue\EditPage$3.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\theme\skyblue\EditPage$4.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\theme\skyblue\EditPage.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\theme\skyblue\FollowListPage$1.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\theme\skyblue\FollowListPage$FollowAdapter.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\theme\skyblue\FollowListPage$FollowListItem.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\theme\skyblue\FollowListPage$PRTHeader.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\theme\skyblue\FollowListPage$RotateImageView.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\theme\skyblue\FollowListPage.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\theme\skyblue\PlatformGridViewAdapter$ViewHolder.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\theme\skyblue\PlatformGridViewAdapter.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\theme\skyblue\PlatformListPage$1.class
+* out\production\WowSai\cn\sharesdk\onekeyshare\theme\skyblue\PlatformListPage.class
+* out\production\WowSai\com\
+* out\production\WowSai\com\qianfeng\
+* out\production\WowSai\com\qianfeng\wowsai\
+* out\production\WowSai\com\qianfeng\wowsai\BuildConfig.class
+* out\production\WowSai\com\qianfeng\wowsai\R$anim.class
+* out\production\WowSai\com\qianfeng\wowsai\R$attr.class
+* out\production\WowSai\com\qianfeng\wowsai\R$color.class
+* out\production\WowSai\com\qianfeng\wowsai\R$dimen.class
+* out\production\WowSai\com\qianfeng\wowsai\R$drawable.class
+* out\production\WowSai\com\qianfeng\wowsai\R$id.class
+* out\production\WowSai\com\qianfeng\wowsai\R$layout.class
+* out\production\WowSai\com\qianfeng\wowsai\R$string.class
+* out\production\WowSai\com\qianfeng\wowsai\R$styleable.class
+* out\production\WowSai\com\qianfeng\wowsai\R.class
+* out\production\WowSai\com\qianfeng\wowsai\activity\
+* out\production\WowSai\com\qianfeng\wowsai\activity\MainActivity$1.class
+* out\production\WowSai\com\qianfeng\wowsai\activity\MainActivity.class
+* out\production\WowSai\com\qianfeng\wowsai\activity\course\
+* out\production\WowSai\com\qianfeng\wowsai\activity\course\CouorsePicDetailActivity.class
+* out\production\WowSai\com\qianfeng\wowsai\activity\course\CourseAllDetailActivity$1.class
+* out\production\WowSai\com\qianfeng\wowsai\activity\course\CourseAllDetailActivity$2.class
+* out\production\WowSai\com\qianfeng\wowsai\activity\course\CourseAllDetailActivity$3.class
+* out\production\WowSai\com\qianfeng\wowsai\activity\course\CourseAllDetailActivity.class
+* out\production\WowSai\com\qianfeng\wowsai\activity\course\CourseUserDetailActivity$1.class
+* out\production\WowSai\com\qianfeng\wowsai\activity\course\CourseUserDetailActivity.class
+* out\production\WowSai\com\qianfeng\wowsai\activity\course\EventDetailActivity$1.class
+* out\production\WowSai\com\qianfeng\wowsai\activity\course\EventDetailActivity$2.class
+* out\production\WowSai\com\qianfeng\wowsai\activity\course\EventDetailActivity.class
+* out\production\WowSai\com\qianfeng\wowsai\activity\find\
+* out\production\WowSai\com\qianfeng\wowsai\activity\find\CampaignActivity$1.class
+* out\production\WowSai\com\qianfeng\wowsai\activity\find\CampaignActivity$2.class
+* out\production\WowSai\com\qianfeng\wowsai\activity\find\CampaignActivity$3.class
+* out\production\WowSai\com\qianfeng\wowsai\activity\find\CampaignActivity$4.class
+* out\production\WowSai\com\qianfeng\wowsai\activity\find\CampaignActivity.class
+* out\production\WowSai\com\qianfeng\wowsai\activity\find\CampaignDetailActivity$1.class
+* out\production\WowSai\com\qianfeng\wowsai\activity\find\CampaignDetailActivity.class
+* out\production\WowSai\com\qianfeng\wowsai\activity\find\DarenActivity$1.class
+* out\production\WowSai\com\qianfeng\wowsai\activity\find\DarenActivity$2.class
+* out\production\WowSai\com\qianfeng\wowsai\activity\find\DarenActivity$3.class
+* out\production\WowSai\com\qianfeng\wowsai\activity\find\DarenActivity$4.class
+* out\production\WowSai\com\qianfeng\wowsai\activity\find\DarenActivity$5.class
+* out\production\WowSai\com\qianfeng\wowsai\activity\find\DarenActivity.class
+* out\production\WowSai\com\qianfeng\wowsai\activity\find\FindSearchAct$1$1.class
+* out\production\WowSai\com\qianfeng\wowsai\activity\find\FindSearchAct$1.class
+* out\production\WowSai\com\qianfeng\wowsai\activity\find\FindSearchAct.class
+* out\production\WowSai\com\qianfeng\wowsai\activity\find\TopicActivity$1.class
+* out\production\WowSai\com\qianfeng\wowsai\activity\find\TopicActivity$2.class
+* out\production\WowSai\com\qianfeng\wowsai\activity\find\TopicActivity$3.class
+* out\production\WowSai\com\qianfeng\wowsai\activity\find\TopicActivity.class
+* out\production\WowSai\com\qianfeng\wowsai\activity\find\TopicDetailActivity$1.class
+* out\production\WowSai\com\qianfeng\wowsai\activity\find\TopicDetailActivity$2.class
+* out\production\WowSai\com\qianfeng\wowsai\activity\find\TopicDetailActivity$3.class
+* out\production\WowSai\com\qianfeng\wowsai\activity\find\TopicDetailActivity.class
+* out\production\WowSai\com\qianfeng\wowsai\activity\my\
+* out\production\WowSai\com\qianfeng\wowsai\activity\my\LoginAct$1.class
+* out\production\WowSai\com\qianfeng\wowsai\activity\my\LoginAct$2$1.class
+* out\production\WowSai\com\qianfeng\wowsai\activity\my\LoginAct$2.class
+* out\production\WowSai\com\qianfeng\wowsai\activity\my\LoginAct$3.class
+* out\production\WowSai\com\qianfeng\wowsai\activity\my\LoginAct$4.class
+* out\production\WowSai\com\qianfeng\wowsai\activity\my\LoginAct.class
+* out\production\WowSai\com\qianfeng\wowsai\activity\my\RegisterAct$1.class
+* out\production\WowSai\com\qianfeng\wowsai\activity\my\RegisterAct$2$1$1$1.class
+* out\production\WowSai\com\qianfeng\wowsai\activity\my\RegisterAct$2$1$1.class
+* out\production\WowSai\com\qianfeng\wowsai\activity\my\RegisterAct$2$1.class
+* out\production\WowSai\com\qianfeng\wowsai\activity\my\RegisterAct$2.class
+* out\production\WowSai\com\qianfeng\wowsai\activity\my\RegisterAct$3.class
+* out\production\WowSai\com\qianfeng\wowsai\activity\my\RegisterAct$4.class
+* out\production\WowSai\com\qianfeng\wowsai\activity\my\RegisterAct$5.class
+* out\production\WowSai\com\qianfeng\wowsai\activity\my\RegisterAct.class
+* out\production\WowSai\com\qianfeng\wowsai\activity\rankingList\
+* out\production\WowSai\com\qianfeng\wowsai\activity\rankingList\RankListAct$1.class
+* out\production\WowSai\com\qianfeng\wowsai\activity\rankingList\RankListAct$2.class
+* out\production\WowSai\com\qianfeng\wowsai\activity\rankingList\RankListAct$3.class
+* out\production\WowSai\com\qianfeng\wowsai\activity\rankingList\RankListAct$4.class
+* out\production\WowSai\com\qianfeng\wowsai\activity\rankingList\RankListAct.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\
+* out\production\WowSai\com\qianfeng\wowsai\adapter\ActionAdapter$1.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\ActionAdapter$2.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\ActionAdapter$3.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\ActionAdapter$4.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\ActionAdapter$CircleHolder.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\ActionAdapter$CourseHolder.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\ActionAdapter$FollowHolder.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\ActionAdapter.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\CampaignAdapter$ViewHolder.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\CampaignAdapter.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\ContentFragmentPagerAdapter.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\CourseAdapter$1.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\CourseAdapter$ViewHolder.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\CourseAdapter.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\CourseAllDetail_ListView_Adapter$ViewHolder.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\CourseAllDetail_ListView_Adapter.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\CourseAllDetail_ViewPager_Adapter.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\CustomCyclePagerAdapter.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\DarenAdapter$1.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\DarenAdapter$2.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\DarenAdapter$ViewHolder.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\DarenAdapter.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\EventDetailLaudPersonAdapter.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\ExpandListViewAdapter$1.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\ExpandListViewAdapter$2.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\ExpandListViewAdapter$3.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\ExpandListViewAdapter$CateView.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\ExpandListViewAdapter$TitleView.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\ExpandListViewAdapter.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\ExpandListViewAdapter2$CateView.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\ExpandListViewAdapter2.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\HandCircleAdapter$1.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\HandCircleAdapter$ViewHolder.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\HandCircleAdapter.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\HomeCourseAdapter$1.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\HomeCourseAdapter$ViewHolder.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\HomeCourseAdapter.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\HomeTopicAdapter$ViewHolder.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\HomeTopicAdapter.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\MyBaseAdapter.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\RankCourseListAdapter$ViewHolder.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\RankCourseListAdapter.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\RankInfoAdapter$1.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\RankInfoAdapter$2.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\RankInfoAdapter$3.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\RankInfoAdapter$ViewHolder.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\RankInfoAdapter.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\RankUserListAdapter$ViewHolder.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\RankUserListAdapter.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\SectionAdapter$1.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\SectionAdapter$2.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\SectionAdapter$3.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\SectionAdapter$CircleView.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\SectionAdapter$CourseView.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\SectionAdapter$HeaderView.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\SectionAdapter$UserView.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\SectionAdapter.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\SectionedBaseAdapter.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\TopicAdapter$1.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\TopicAdapter$2.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\TopicAdapter$ViewHolder.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\TopicAdapter.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\TopicDetailAdapter$1.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\TopicDetailAdapter$2.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\TopicDetailAdapter$ViewHolder.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\TopicDetailAdapter.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\UserDetailViewPagerAdapter.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\UserHandCircleCollect_GridView_Adapter.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\UserHandCircleCollect_ListView_Adapter$ViewHolder.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\UserHandCircleCollect_ListView_Adapter.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\UserHandCircle_ListView_Adapter$ViewHolder.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\UserHandCircle_ListView_Adapter.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\UserMyCourse_GrideView_Adapter$ViewHolder.class
+* out\production\WowSai\com\qianfeng\wowsai\adapter\UserMyCourse_GrideView_Adapter.class
+* out\production\WowSai\com\qianfeng\wowsai\app\
+* out\production\WowSai\com\qianfeng\wowsai\app\AppCtx.class
+* out\production\WowSai\com\qianfeng\wowsai\fragment\
+* out\production\WowSai\com\qianfeng\wowsai\fragment\CampaignInstructFragment$1.class
+* out\production\WowSai\com\qianfeng\wowsai\fragment\CampaignInstructFragment$2.class
+* out\production\WowSai\com\qianfeng\wowsai\fragment\CampaignInstructFragment.class
+* out\production\WowSai\com\qianfeng\wowsai\fragment\CourseFragment$1.class
+* out\production\WowSai\com\qianfeng\wowsai\fragment\CourseFragment$2.class
+* out\production\WowSai\com\qianfeng\wowsai\fragment\CourseFragment$3.class
+* out\production\WowSai\com\qianfeng\wowsai\fragment\CourseFragment$4.class
+* out\production\WowSai\com\qianfeng\wowsai\fragment\CourseFragment.class
+* out\production\WowSai\com\qianfeng\wowsai\fragment\FindActionFragment$1.class
+* out\production\WowSai\com\qianfeng\wowsai\fragment\FindActionFragment$2.class
+* out\production\WowSai\com\qianfeng\wowsai\fragment\FindActionFragment$3.class
+* out\production\WowSai\com\qianfeng\wowsai\fragment\FindActionFragment$4.class
+* out\production\WowSai\com\qianfeng\wowsai\fragment\FindActionFragment.class
+* out\production\WowSai\com\qianfeng\wowsai\fragment\FindHomeFragment$1.class
+* out\production\WowSai\com\qianfeng\wowsai\fragment\FindHomeFragment$10.class
+* out\production\WowSai\com\qianfeng\wowsai\fragment\FindHomeFragment$11.class
+* out\production\WowSai\com\qianfeng\wowsai\fragment\FindHomeFragment$12.class
+* out\production\WowSai\com\qianfeng\wowsai\fragment\FindHomeFragment$13.class
+* out\production\WowSai\com\qianfeng\wowsai\fragment\FindHomeFragment$14.class
+* out\production\WowSai\com\qianfeng\wowsai\fragment\FindHomeFragment$2.class
+* out\production\WowSai\com\qianfeng\wowsai\fragment\FindHomeFragment$3.class
+* out\production\WowSai\com\qianfeng\wowsai\fragment\FindHomeFragment$4.class
+* out\production\WowSai\com\qianfeng\wowsai\fragment\FindHomeFragment$5.class
+* out\production\WowSai\com\qianfeng\wowsai\fragment\FindHomeFragment$6.class
+* out\production\WowSai\com\qianfeng\wowsai\fragment\FindHomeFragment$7.class
+* out\production\WowSai\com\qianfeng\wowsai\fragment\FindHomeFragment$8.class
+* out\production\WowSai\com\qianfeng\wowsai\fragment\FindHomeFragment$9.class
+* out\production\WowSai\com\qianfeng\wowsai\fragment\FindHomeFragment.class
+* out\production\WowSai\com\qianfeng\wowsai\fragment\MainFragment$1.class
+* out\production\WowSai\com\qianfeng\wowsai\fragment\MainFragment$2.class
+* out\production\WowSai\com\qianfeng\wowsai\fragment\MainFragment$3.class
+* out\production\WowSai\com\qianfeng\wowsai\fragment\MainFragment.class
+* out\production\WowSai\com\qianfeng\wowsai\fragment\MessageFragment.class
+* out\production\WowSai\com\qianfeng\wowsai\fragment\RankFragment$1.class
+* out\production\WowSai\com\qianfeng\wowsai\fragment\RankFragment$2.class
+* out\production\WowSai\com\qianfeng\wowsai\fragment\RankFragment.class
+* out\production\WowSai\com\qianfeng\wowsai\fragment\SettingFragment.class
+* out\production\WowSai\com\qianfeng\wowsai\fragment\UserHandCircleFragment$1.class
+* out\production\WowSai\com\qianfeng\wowsai\fragment\UserHandCircleFragment$2.class
+* out\production\WowSai\com\qianfeng\wowsai\fragment\UserHandCircleFragment.class
+* out\production\WowSai\com\qianfeng\wowsai\fragment\UserReleaseCourseFragment$1.class
+* out\production\WowSai\com\qianfeng\wowsai\fragment\UserReleaseCourseFragment$2.class
+* out\production\WowSai\com\qianfeng\wowsai\fragment\UserReleaseCourseFragment.class
+* out\production\WowSai\com\qianfeng\wowsai\fragment\WorkListFragment$1.class
+* out\production\WowSai\com\qianfeng\wowsai\fragment\WorkListFragment$2.class
+* out\production\WowSai\com\qianfeng\wowsai\fragment\WorkListFragment$3.class
+* out\production\WowSai\com\qianfeng\wowsai\fragment\WorkListFragment$4.class
+* out\production\WowSai\com\qianfeng\wowsai\fragment\WorkListFragment.class
+* out\production\WowSai\com\qianfeng\wowsai\model\
+* out\production\WowSai\com\qianfeng\wowsai\model\Action.class
+* out\production\WowSai\com\qianfeng\wowsai\model\Adv.class
+* out\production\WowSai\com\qianfeng\wowsai\model\Campaign.class
+* out\production\WowSai\com\qianfeng\wowsai\model\Cate.class
+* out\production\WowSai\com\qianfeng\wowsai\model\Cate3.class
+* out\production\WowSai\com\qianfeng\wowsai\model\Cates.class
+* out\production\WowSai\com\qianfeng\wowsai\model\Comments.class
+* out\production\WowSai\com\qianfeng\wowsai\model\Course.class
+* out\production\WowSai\com\qianfeng\wowsai\model\EventCate.class
+* out\production\WowSai\com\qianfeng\wowsai\model\EventMessage.class
+* out\production\WowSai\com\qianfeng\wowsai\model\HandCircle.class
+* out\production\WowSai\com\qianfeng\wowsai\model\Home.class
+* out\production\WowSai\com\qianfeng\wowsai\model\Nav.class
+* out\production\WowSai\com\qianfeng\wowsai\model\Slide.class
+* out\production\WowSai\com\qianfeng\wowsai\model\Topic.class
+* out\production\WowSai\com\qianfeng\wowsai\model\User.class
+* out\production\WowSai\com\qianfeng\wowsai\tool\
+* out\production\WowSai\com\qianfeng\wowsai\tool\AESUtils4.class
+* out\production\WowSai\com\qianfeng\wowsai\tool\GetJsonInfo.class
+* out\production\WowSai\com\qianfeng\wowsai\tool\HttpUtil$1.class
+* out\production\WowSai\com\qianfeng\wowsai\tool\HttpUtil$2.class
+* out\production\WowSai\com\qianfeng\wowsai\tool\HttpUtil$3.class
+* out\production\WowSai\com\qianfeng\wowsai\tool\HttpUtil$4.class
+* out\production\WowSai\com\qianfeng\wowsai\tool\HttpUtil$5.class
+* out\production\WowSai\com\qianfeng\wowsai\tool\HttpUtil$OnSuccessListener.class
+* out\production\WowSai\com\qianfeng\wowsai\tool\HttpUtil.class
+* out\production\WowSai\com\qianfeng\wowsai\tool\Json2model.class
+* out\production\WowSai\com\qianfeng\wowsai\tool\JsonUtils.class
+* out\production\WowSai\com\qianfeng\wowsai\tool\LoginInfoUtil.class
+* out\production\WowSai\com\qianfeng\wowsai\tool\MemoryCache.class
+* out\production\WowSai\com\qianfeng\wowsai\tool\RandomUtil.class
+* out\production\WowSai\com\qianfeng\wowsai\tool\StaticData.class
+* out\production\WowSai\com\qianfeng\wowsai\view\
+* out\production\WowSai\com\qianfeng\wowsai\view\custom\
+* out\production\WowSai\com\qianfeng\wowsai\view\custom\CircleImageView.class
+* out\production\WowSai\com\qianfeng\wowsai\view\custom\CustomEditText.class
+* out\production\WowSai\com\qianfeng\wowsai\view\custom\CustomRefreshGridView$1.class
+* out\production\WowSai\com\qianfeng\wowsai\view\custom\CustomRefreshGridView$2.class
+* out\production\WowSai\com\qianfeng\wowsai\view\custom\CustomRefreshGridView$3.class
+* out\production\WowSai\com\qianfeng\wowsai\view\custom\CustomRefreshGridView$4$1$1$1.class
+* out\production\WowSai\com\qianfeng\wowsai\view\custom\CustomRefreshGridView$4$1$1.class
+* out\production\WowSai\com\qianfeng\wowsai\view\custom\CustomRefreshGridView$4$1.class
+* out\production\WowSai\com\qianfeng\wowsai\view\custom\CustomRefreshGridView$4.class
+* out\production\WowSai\com\qianfeng\wowsai\view\custom\CustomRefreshGridView$5$1.class
+* out\production\WowSai\com\qianfeng\wowsai\view\custom\CustomRefreshGridView$5.class
+* out\production\WowSai\com\qianfeng\wowsai\view\custom\CustomRefreshGridView$OnLastItemListener.class
+* out\production\WowSai\com\qianfeng\wowsai\view\custom\CustomRefreshGridView$OnRefreshListener.class
+* out\production\WowSai\com\qianfeng\wowsai\view\custom\CustomRefreshGridView.class
+* out\production\WowSai\com\qianfeng\wowsai\view\custom\CustomRefreshListView$1.class
+* out\production\WowSai\com\qianfeng\wowsai\view\custom\CustomRefreshListView$2.class
+* out\production\WowSai\com\qianfeng\wowsai\view\custom\CustomRefreshListView$3.class
+* out\production\WowSai\com\qianfeng\wowsai\view\custom\CustomRefreshListView$4$1$1$1.class
+* out\production\WowSai\com\qianfeng\wowsai\view\custom\CustomRefreshListView$4$1$1.class
+* out\production\WowSai\com\qianfeng\wowsai\view\custom\CustomRefreshListView$4$1.class
+* out\production\WowSai\com\qianfeng\wowsai\view\custom\CustomRefreshListView$4.class
+* out\production\WowSai\com\qianfeng\wowsai\view\custom\CustomRefreshListView$5$1.class
+* out\production\WowSai\com\qianfeng\wowsai\view\custom\CustomRefreshListView$5.class
+* out\production\WowSai\com\qianfeng\wowsai\view\custom\CustomRefreshListView$OnLastItemListener.class
+* out\production\WowSai\com\qianfeng\wowsai\view\custom\CustomRefreshListView$OnRefreshListener.class
+* out\production\WowSai\com\qianfeng\wowsai\view\custom\CustomRefreshListView.class
+* out\production\WowSai\com\qianfeng\wowsai\view\custom\MyGridView.class
+* out\production\WowSai\com\qianfeng\wowsai\view\custom\Myviewpage$OnSingleTouchListener.class
+* out\production\WowSai\com\qianfeng\wowsai\view\custom\Myviewpage.class
+* out\production\WowSai\com\qianfeng\wowsai\view\custom\PinnedHeaderListView$OnItemClickListener.class
+* out\production\WowSai\com\qianfeng\wowsai\view\custom\PinnedHeaderListView$PinnedSectionedHeaderAdapter.class
+* out\production\WowSai\com\qianfeng\wowsai\view\custom\PinnedHeaderListView.class
+* out\production\WowSai\com\qianfeng\wowsai\view\custom\ScllorTabView.class
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* libs\eventbus-1.0.1.jar => app\libs\eventbus-1.0.1.jar
+* libs\mframework.jar => app\libs\mframework.jar
+* libs\picasso-2.2.0.jar => app\libs\picasso-2.2.0.jar
+* libs\ShareSDK-Core-2.5.8.jar => app\libs\ShareSDK-Core-2.5.8.jar
+* libs\ShareSDK-QZone-2.5.8.jar => app\libs\ShareSDK-QZone-2.5.8.jar
+* libs\ShareSDK-SinaWeibo-2.5.8.jar => app\libs\ShareSDK-SinaWeibo-2.5.8.jar
+* libs\ShareSDK-Wechat-Core-2.5.8.jar => app\libs\ShareSDK-Wechat-Core-2.5.8.jar
+* libs\ShareSDK-Wechat-Moments-2.5.8.jar => app\libs\ShareSDK-Wechat-Moments-2.5.8.jar
+* libs\volley.jar => app\libs\volley.jar
+* libs\xUtils-2.6.13.jar => app\libs\xUtils-2.6.13.jar
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

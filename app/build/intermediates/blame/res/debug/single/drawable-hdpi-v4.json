@@ -1,0 +1,414 @@
+[
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sgk_avater_normal.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\sgk_avater_normal.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\arrow_down.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\arrow_down.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\edit_clear.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\edit_clear.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sgk_list_comment_icon.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\sgk_list_comment_icon.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sgk_icon_courseclassify_defaul.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\sgk_icon_courseclassify_defaul.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sgk_img_default_big.jpg",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\sgk_img_default_big.jpg"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sgk_list_vote_icon.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\sgk_list_vote_icon.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sgk_order_refresh_gif1.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\sgk_order_refresh_gif1.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sgk_course_collect_pressed.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\sgk_course_collect_pressed.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sgk_icon_userheader_defaut_circle.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\sgk_icon_userheader_defaut_circle.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\event_prepare_bt.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\event_prepare_bt.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sgk_icon_attention_no_list.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\sgk_icon_attention_no_list.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sgk_detail_lauded.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\sgk_detail_lauded.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sgk_curriculum_discussitem_bg1.9.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\sgk_curriculum_discussitem_bg1.9.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\event_over_bt.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\event_over_bt.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\dialog_split_h.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\dialog_split_h.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tab_rank.xml",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\tab_rank.xml"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sgk_leve_lv1.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\sgk_leve_lv1.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tab_personal_normal.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\tab_personal_normal.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sgk_order_bt_right_triangle.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\sgk_order_bt_right_triangle.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\lv_backtotop.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\lv_backtotop.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sgk_userhome_bg.jpg",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\sgk_userhome_bg.jpg"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\paihang.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\paihang.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sgk_icon_qq.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\sgk_icon_qq.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sgk_userhome_attent_no.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\sgk_userhome_attent_no.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\gridview_bg.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\gridview_bg.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sgk_icon_userhome_collect_opus_empty.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\sgk_icon_userhome_collect_opus_empty.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sgk_icon_user_login.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\sgk_icon_user_login.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sgk_icon_weibo.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\sgk_icon_weibo.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\action_shape.xml",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\action_shape.xml"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sgk_leve_lv3.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\sgk_leve_lv3.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sgk_icon_weixin.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\sgk_icon_weixin.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tab_zone_selected.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\tab_zone_selected.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sgk_leve_lv10.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\sgk_leve_lv10.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sgk_leve_lv9.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\sgk_leve_lv9.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\event_join_bt.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\event_join_bt.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sgk_send.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\sgk_send.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\guan_text_bg.9.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\guan_text_bg.9.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\while_bg.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\while_bg.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sgk_order_refresh_gif2.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\sgk_order_refresh_gif2.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sgk_order_refresh_gif5.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\sgk_order_refresh_gif5.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sgk_push_on.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\sgk_push_on.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\arrow_right.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\arrow_right.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\blue_ciecle.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\blue_ciecle.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sgk_course_step_icon.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\sgk_course_step_icon.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tab_discover_selected.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\tab_discover_selected.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tab_arrow.xml",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\tab_arrow.xml"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\home_arrow.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\home_arrow.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sgk_push_off.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\sgk_push_off.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ssdk_oks_ptr_ptr.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\ssdk_oks_ptr_ptr.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sgk_leve_lv7.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\sgk_leve_lv7.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tab_underline.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\tab_underline.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sgk_userhome_letter.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\sgk_userhome_letter.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\base_search.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\base_search.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\vip.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\vip.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sgk_leve_lv6.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\sgk_leve_lv6.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\search_pressed.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\search_pressed.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sgk_icon_userhome_course_empty.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\sgk_icon_userhome_course_empty.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sgk_detail_collect.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\sgk_detail_collect.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sgk_course_shared.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\sgk_course_shared.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\login_bg.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\login_bg.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sgk_course_collect_normal.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\sgk_course_collect_normal.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\dot1.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\dot1.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tab_zone_normal.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\tab_zone_normal.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\slidetab_bg_press.9.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\slidetab_bg_press.9.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sgk_icon_userhome_collect_course_empty.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\sgk_icon_userhome_collect_course_empty.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sgk_course_commnet.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\sgk_course_commnet.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\crafter_photoalbum_ok_bt.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\crafter_photoalbum_ok_bt.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tab_course_normal.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\tab_course_normal.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tab_personal_selected.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\tab_personal_selected.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\arrow_up.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\arrow_up.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\edit_shape.xml",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\edit_shape.xml"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\rank_a.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\rank_a.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sgk_leve_lv4.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\sgk_leve_lv4.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tab_click.xml",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\tab_click.xml"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tab_find.xml",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\tab_find.xml"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sgk_icon_attention.xml",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\sgk_icon_attention.xml"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sgk_order_refresh_gif3.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\sgk_order_refresh_gif3.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sgk_icon_password_login.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\sgk_icon_password_login.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\code1.9.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\code1.9.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\code2.9.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\code2.9.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sgk_img_default_steppic.jpg",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\sgk_img_default_steppic.jpg"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\dot2.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\dot2.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tab_discover_normal.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\tab_discover_normal.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sgk_icon_userhome_opus_empty.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\sgk_icon_userhome_opus_empty.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tab_course.xml",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\tab_course.xml"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\green_ciecle.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\green_ciecle.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sgk_icon_attention_yes_list.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\sgk_icon_attention_yes_list.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tab_collect.xml",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\tab_collect.xml"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\rank_m.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\rank_m.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\publish.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\publish.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sgk_detail_laud.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\sgk_detail_laud.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sgk_order_refresh_gif4.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\sgk_order_refresh_gif4.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sgk_leve_lv8.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\sgk_leve_lv8.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sgk_leve_lv5.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\sgk_leve_lv5.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sgk_back_arrow.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\sgk_back_arrow.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tab_course_selected.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\tab_course_selected.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\base_publish.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\base_publish.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tab_mine.xml",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\tab_mine.xml"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sgk_leve_lv2.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\sgk_leve_lv2.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\gray_bg.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\gray_bg.png"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\red_ciecle.png",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\drawable-hdpi\\red_ciecle.png"
+    }
+]

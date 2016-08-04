@@ -1,0 +1,33 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "com.qianfeng.wowsai"
+        minSdkVersion 21
+        targetSdkVersion 24
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:24.0.0'
+    compile files('libs/eventbus-1.0.1.jar')
+    compile files('libs/mframework.jar')
+    compile files('libs/picasso-2.2.0.jar')
+    compile files('libs/ShareSDK-Core-2.5.8.jar')
+    compile files('libs/ShareSDK-QZone-2.5.8.jar')
+    compile files('libs/ShareSDK-SinaWeibo-2.5.8.jar')
+    compile files('libs/ShareSDK-Wechat-Core-2.5.8.jar')
+    compile files('libs/ShareSDK-Wechat-Moments-2.5.8.jar')
+    compile files('libs/volley.jar')
+    compile files('libs/xUtils-2.6.13.jar')
+}

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 主界面 -->
+    <dimen name="BaseTabHeight">50dp</dimen>
+    <dimen name="BaseTitleHeight">82dp</dimen>
+    <dimen name="TitleHeight">45dp</dimen>
+    <dimen name="TitleTabHeight">32dp</dimen>
+
+    <!-- 字体 -->
+    <dimen name="txt_size_m">17sp</dimen>
+    <dimen name="txt_size_s">14sp</dimen>
+    <dimen name="txt_size_l">20sp</dimen>
+
+    <!-- 内部字体 -->
+    <dimen name="txt_size_user_s">10sp</dimen>
+    <dimen name="txt_size_content">14sp</dimen>
+    <dimen name="txt_daren_username">15sp</dimen>
+    <dimen name="txt_daren_count">12sp</dimen>
+
+    <!-- Course的List界面的图的大小 -->
+    <dimen name="courseListItemMarginLeftRight">10dp</dimen>
+    <dimen name="courseListItemMarginTopBottom">15dp</dimen>
+    <dimen name="courseListItemHeight">240dp</dimen>
+    <dimen name="headImgMarginRight">20dp</dimen>
+    <dimen name="headImgBorder">1dp</dimen>
+    <dimen name="headImgSize">30dp</dimen>
+    <dimen name="smallSize">9dp</dimen>
+    <dimen name="imgTopMargin">18dp</dimen>
+
+    <!-- 全局的 -->
+    <dimen name="dividerHeight">10dp</dimen>
+
+    <!--详情界面-->
+    <dimen name="length_1">1dp</dimen>
+    <dimen name="length_2">2dp</dimen>
+    <dimen name="length_5">5dp</dimen>
+    <dimen name="length_10">10dp</dimen>
+    <dimen name="length_15">15dp</dimen>
+    <dimen name="length_20">20dp</dimen>
+    <dimen name="length_30">30dp</dimen>
+    <dimen name="length_40">40dp</dimen>
+    <dimen name="length_50">50dp</dimen>
+    <dimen name="length_60">60dp</dimen>
+    <dimen name="length_80">80dp</dimen>
+    <dimen name="length_100">100dp</dimen>
+    <dimen name="length_150">150dp</dimen>
+    <dimen name="length_200">200dp</dimen>
+    <dimen name="length_300">300dp</dimen>
+    <dimen name="length_400">400dp</dimen>
+    <dimen name="length_430">430dp</dimen>
+    <dimen name="length_600">600dp</dimen>
+    <dimen name="BaseTabPaddingTop">15dp</dimen>
+    <dimen name="RedNumberMarginLeft">12dp</dimen>
+
+    <!-- 专题List页面 -->
+    <dimen name="subjectTopPadding">10dp</dimen>
+    <dimen name="subjectLeftPadding">15dp</dimen>
+    <dimen name="imgMargin">2dp</dimen>
+
+    <!-- 活动详情页 -->
+    <dimen name="itemPadding">7dp</dimen>
+    <dimen name="textPadding">5dp</dimen>
+    <dimen name="smallHeadWidth">20dp</dimen>
+
+    <!-- 首页 -->
+    <dimen name="navSize">50dp</dimen>
+    <dimen name="lineSize">1dp</dimen>
+    <dimen name="paddingTitle">15dp</dimen>
+    <dimen name="paddingDarenBg">10dp</dimen>
+    <dimen name="darenSize">50dp</dimen>
+    <dimen name="smallTextPadding">2dp</dimen>
+    <dimen name="darenMarginBottom">25dp</dimen>
+    <dimen name="gridViewGap">10dp</dimen>
+    <dimen name="dotsLayoutHeight">14dp</dimen>
+    <dimen name="topicTitlePadding">10dp</dimen>
+    <dimen name="darenInfoSize">12sp</dimen>
+    <dimen name="guanTopMargin">7dp</dimen>
+
+
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/listGap"
+              android:padding="@dimen/length_5"
+              android:gravity="top"
+        >
+
+    <GridView
+            android:id="@+id/fragment_user_release_gridView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:numColumns="2"
+            android:horizontalSpacing="@dimen/length_10"
+            android:verticalSpacing="@dimen/length_10"
+            android:listSelector="#00000000"
+            android:cacheColorHint="#00000000"
+            android:gravity="top"
+            android:layout_gravity="top"
+            />
+</LinearLayout>

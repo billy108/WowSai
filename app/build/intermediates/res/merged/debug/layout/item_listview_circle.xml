@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+        >
+
+    <LinearLayout
+            android:id="@+id/linearLayout_search_circle"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            >
+
+        <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="3.5"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                >
+
+            <TextView
+                    android:id="@+id/textView_search_circle_user"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="111"
+                    android:textColor="@color/gray"
+                    />
+
+            <TextView
+                    android:id="@+id/textView_search_circle_subject"
+                    android:layout_marginTop="6dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:lines="2"
+                    android:text="111"
+                    />
+
+            <TextView
+                    android:id="@+id/textView_search_circle_time"
+                    android:layout_marginTop="2dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="111"
+                    android:textColor="@color/gray"
+                    />
+        </LinearLayout>
+
+        <ImageView
+                android:id="@+id/imageView_search_circle_pic"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_launcher"
+                />
+    </LinearLayout>
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray"/>
+
+    <LinearLayout
+            android:id="@+id/linearLayout_search_circle_more"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:clickable="true"
+            android:background="@drawable/tab_click"
+            >
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="查看更多"
+                android:textSize="@dimen/txt_size_m"
+                android:gravity="center"
+                />
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/arrow_right"
+                />
+    </LinearLayout>
+
+
+</LinearLayout>

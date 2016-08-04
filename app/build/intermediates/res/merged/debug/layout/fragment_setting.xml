@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+        >
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="12dp"
+                    android:background="@color/listGap"
+                    />
+
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/gray"
+                    />
+
+            <TextView
+                    android:id="@+id/textView_setting_fragment_myInfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/set_myInfo"
+                    android:gravity="center_vertical"
+                    android:drawableRight="@drawable/arrow_right"
+                    android:padding="12dp"
+                    android:background="@drawable/tab_click"
+                    android:clickable="true"
+                    />
+
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/gray"
+                    android:layout_marginLeft="15dp"
+                    />
+
+            <TextView
+                    android:id="@+id/textView_setting_fragment_myLevel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/set_myLevel"
+                    android:gravity="center_vertical"
+                    android:drawableRight="@drawable/arrow_right"
+                    android:padding="12dp"
+                    android:background="@drawable/tab_click"
+                    android:clickable="true"
+                    />
+
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/gray"
+                    android:layout_marginLeft="15dp"
+                    />
+
+            <TextView
+                    android:id="@+id/textView_setting_fragment_changePwd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/set_changePwd"
+                    android:gravity="center_vertical"
+                    android:drawableRight="@drawable/arrow_right"
+                    android:padding="12dp"
+                    android:background="@drawable/tab_click"
+                    android:clickable="true"
+                    />
+
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/gray"
+                    />
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"
+                    android:background="@color/listGap"
+                    />
+
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/gray"
+                    />
+
+            <TextView
+                    android:id="@+id/textView_setting_fragment_goodDetail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/set_goodDetail"
+                    android:gravity="center_vertical"
+                    android:drawableRight="@drawable/arrow_right"
+                    android:padding="12dp"
+                    android:background="@drawable/tab_click"
+                    android:clickable="true"
+                    />
+
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/gray"
+                    android:layout_marginLeft="15dp"
+                    />
+
+            <TextView
+                    android:id="@+id/textView_setting_fragment_classDetail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/set_classDetail"
+                    android:gravity="center_vertical"
+                    android:drawableRight="@drawable/arrow_right"
+                    android:padding="12dp"
+                    android:background="@drawable/tab_click"
+                    android:clickable="true"
+                    />
+
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/gray"
+                    />
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"
+                    android:background="@color/listGap"
+                    />
+
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/gray"
+                    />
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+
+                <TextView
+
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/set_tuisong"
+                        android:gravity="center_vertical"
+                        android:padding="12dp"
+                        />
+
+                <CheckBox
+                        android:id="@+id/btn_set_headline"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/checkbtn"
+                        android:layout_marginRight="8dp"
+                        />
+            </LinearLayout>
+
+
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/gray"
+                    />
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"
+                    android:background="@color/listGap"
+                    />
+
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/gray"
+                    />
+
+            <TextView
+                    android:id="@+id/textView_setting_fragment_goodPing"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/set_goodPing"
+                    android:gravity="center_vertical"
+                    android:drawableRight="@drawable/arrow_right"
+                    android:padding="12dp"
+                    android:background="@drawable/tab_click"
+                    android:clickable="true"
+                    />
+
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/gray"
+                    android:layout_marginLeft="15dp"
+                    />
+
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+
+                <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/set_clearCash"
+                        android:gravity="center_vertical"
+                        android:padding="12dp"
+                        />
+
+                <TextView
+                        android:id="@+id/textView_setting_fragment_clearCash"
+                        android:padding="12dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0M"
+                        />
+            </LinearLayout>
+
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/gray"
+                    android:layout_marginLeft="15dp"
+                    />
+
+            <TextView
+                    android:id="@+id/textView_setting_fragment_suggest"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/set_suggest"
+                    android:gravity="center_vertical"
+                    android:drawableRight="@drawable/arrow_right"
+                    android:padding="12dp"
+                    android:background="@drawable/tab_click"
+                    android:clickable="true"
+                    />
+
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/gray"
+                    android:layout_marginLeft="15dp"
+                    />
+
+            <TextView
+                    android:id="@+id/textView_setting_fragment_about"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/set_about"
+                    android:gravity="center_vertical"
+                    android:drawableRight="@drawable/arrow_right"
+                    android:padding="12dp"
+                    android:background="@drawable/tab_click"
+                    android:clickable="true"
+                    />
+
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/gray"
+                    android:layout_marginLeft="15dp"
+                    />
+
+            <TextView
+                    android:id="@+id/textView_setting_fragment_weixin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/set_weixin"
+                    android:gravity="center_vertical"
+                    android:drawableRight="@drawable/arrow_right"
+                    android:padding="12dp"
+                    android:background="@drawable/tab_click"
+                    android:clickable="true"
+                    />
+
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/gray"
+                    android:layout_marginLeft="15dp"
+                    />
+
+            <TextView
+                    android:id="@+id/textView_setting_fragment_version"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/set_version"
+                    android:gravity="center_vertical"
+                    android:drawableRight="@drawable/arrow_right"
+                    android:padding="12dp"
+                    android:background="@drawable/tab_click"
+                    android:clickable="true"
+                    />
+
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/gray"
+                    />
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_margin="15dp"
+                    >
+
+                <TextView
+                        android:id="@+id/textView_setting_fragment_login"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:text="登录"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/txt_size_l"
+                        android:gravity="center"
+                        android:background="@color/red"
+                        android:clickable="true"
+                        />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

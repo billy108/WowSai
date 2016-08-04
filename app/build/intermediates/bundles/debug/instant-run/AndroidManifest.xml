@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.qianfeng.wowsai"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="24" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 分享需要的权限 -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <application
+        name="com.qianfeng.wowsai.app.AppCtx"
+        android:name="com.android.tools.fd.runtime.BootstrapApplication"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Light.NoTitleBar" >
+        <activity
+            android:name="com.qianfeng.wowsai.activity.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.qianfeng.wowsai.activity.course.CourseAllDetailActivity" >
+            <intent-filter>
+                <action android:name="CourseAllDetail" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.qianfeng.wowsai.activity.course.CourseUserDetailActivity" >
+        </activity>
+        <activity android:name="com.qianfeng.wowsai.activity.course.CouorsePicDetailActivity" />
+        <activity android:name="com.qianfeng.wowsai.activity.find.FindSearchAct" />
+        <activity android:name="com.qianfeng.wowsai.activity.find.DarenActivity" >
+        </activity>
+
+        <!-- 分享需要添加的activity -->
+        <activity
+            android:name="cn.sharesdk.framework.ShareSDKUIShell"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+            <intent-filter>
+                <data android:scheme="tencent100371282" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 微信分享回调 -->
+        <activity
+            android:name="cn.sharesdk.demo.wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity android:name="com.qianfeng.wowsai.activity.rankingList.RankListAct" />
+        <activity
+            android:name="com.qianfeng.wowsai.activity.course.EventDetailActivity"
+            android:label="活动作品" >
+        </activity>
+        <activity android:name="com.qianfeng.wowsai.activity.find.TopicActivity" />
+        <activity android:name="com.qianfeng.wowsai.activity.find.TopicDetailActivity" />
+        <activity android:name="com.qianfeng.wowsai.activity.find.CampaignActivity" />
+        <activity android:name="com.qianfeng.wowsai.activity.find.CampaignDetailActivity" />
+        <activity android:name="com.qianfeng.wowsai.activity.my.LoginAct" />
+        <activity android:name="com.qianfeng.wowsai.activity.my.RegisterAct" />
+        <activity android:name="com.qianfeng.wowsai.activity.my.MyInfo" />
+    </application>
+
+</manifest>

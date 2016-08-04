@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 基本颜色 -->
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="red">#FFFF0000</color>
+    <color name="gray">#FFBBBBBB</color>
+    <color name="green">#ff9ddb39</color>
+    <color name="orange">#ffde8142</color>
+
+    <!-- 小字颜色 -->
+    <color name="smallSizeColor">#FFAAAAAA</color>
+    <color name="lightGray">#dddddd</color>
+    <color name="darkGray">#777777</color>
+
+    <!-- List间隔的颜色 -->
+    <color name="listGap">#F7EFEF</color>
+
+
+    <color name="light_orange">#ffffab1b</color>
+
+    <!--course 制作步骤 第一个图片的半透明背景-->
+    <color name="alpha">#88dddddd</color>
+    <!--课程详情的表格背景色-->
+    <color name="light_black">#55000000</color>
+    <!-- Title的背景颜色 -->
+    <color name="titleBg">#F00</color>
+    <!-- 关注按钮的颜色 -->
+    <color name="button_attention">#EC534B</color>
+    <!-- 分割线的颜色 -->
+    <color name="lineColor">#eee</color>
+
+    <!-- 放点的颜色 -->
+    <color name="dotsLayoutBg">#7777</color>
+
+    <!-- 首页教程名字的颜色 -->
+    <color name="homeCourseNameColor">#BA8680</color>
+
+    <!-- 透明色 -->
+    <color name="translate">#0000</color>
+
+</resources>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="-25dp"
+            android:layout_marginBottom="-25dp"
+        >
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+        <!--头部的透明-->
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:gravity="center_vertical"
+                >
+
+            <com.qianfeng.wowsai.view.custom.CircleImageView
+                    android:id="@+id/activity_course_all_detail_last_userHead"
+                    android:layout_width="@dimen/length_40"
+                    android:layout_height="@dimen/length_40"
+                    android:src="@drawable/sgk_icon_courseclassify_defaul"
+                    android:layout_margin="@dimen/length_10"
+                    />
+
+            <TextView
+                    android:id="@+id/activity_course_all_detail_last_userName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="你大爷的"
+                    android:layout_alignBottom="@+id/activity_course_all_detail_last_userHead"
+                    android:layout_toRightOf="@+id/activity_course_all_detail_last_userHead"
+                    />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="创作者"
+                    android:layout_above="@id/activity_course_all_detail_last_userName"
+                    android:layout_toRightOf="@id/activity_course_all_detail_last_userHead"
+                    />
+
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="@dimen/length_20"
+                    android:layout_marginRight="@dimen/length_10"
+                    android:text="+ 关注 "
+                    android:textColor="@color/white"
+                    android:background="@drawable/crafter_photoalbum_ok_bt"
+                    />
+        </RelativeLayout>
+
+        <!--内部列表-->
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@color/listGap"
+                android:layout_marginTop="-20dp"
+                android:layout_marginBottom="-20dp"
+                >
+
+            <ImageView
+                    android:layout_below="@id/activity_course_all_detail_subject"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/length_5"
+                    android:layout_marginBottom="@dimen/length_10"
+                    android:background="@drawable/dialog_split_h"
+                    />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="评论"
+                    android:textSize="@dimen/txt_size_l"
+                    android:layout_margin="@dimen/length_10"
+                    />
+
+            <ImageView
+                    android:layout_below="@id/activity_course_all_detail_subject"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/length_2"
+                    android:background="@drawable/dialog_split_h"
+                    />
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/length_400"
+                    android:orientation="vertical"
+                    android:background="@color/white"
+                    >
+            <ListView
+                    android:id="@+id/activity_course_all_detail_last_comments"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/length_600"
+                    android:background="@color/white"
+                    android:padding="@dimen/length_10"
+                    />
+
+            <TextView
+                    android:id="@+id/activity_course_all_detail_last_enptyInfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/length_100"
+                    android:background="@color/white"
+                    android:padding="@dimen/length_10"
+                    android:text="暂无评价"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

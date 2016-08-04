@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/alpha"
+              android:gravity="center_horizontal"
+              android:padding="@dimen/length_30"
+        >
+
+
+    <TextView
+            android:id="@+id/activity_course_all_detail_subject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/length_100"
+            android:layout_marginBottom="@dimen/length_30"
+            android:text="【New】 Text"
+            android:textColor="@color/white"
+            android:textSize="@dimen/txt_size_l"
+            android:layout_gravity="center_horizontal"
+            />
+    <ImageView
+            android:id="@+id/noUseImageView1"
+            android:layout_below="@id/activity_course_all_detail_subject"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/length_2"
+            android:layout_marginBottom="@dimen/length_10"
+            android:background="@drawable/dialog_split_h"
+            />
+
+    <TextView
+            android:id="@+id/activity_course_all_detail_summary"
+            android:layout_below="@id/noUseImageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text\n\naaaacc\nccc"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            />
+
+    <ImageView
+            android:id="@+id/noUseImageView2"
+            android:layout_below="@id/activity_course_all_detail_summary"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/length_2"
+            android:layout_marginTop="@dimen/length_10"
+            android:background="@drawable/dialog_split_h"
+            />
+
+    <com.qianfeng.wowsai.view.custom.CircleImageView
+            android:id="@+id/activity_course_all_detail_userPhoto"
+            android:layout_width="@dimen/length_40"
+            android:layout_height="@dimen/length_40"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/length_80"
+            android:src="@drawable/sgk_icon_courseclassify_defaul"
+            />
+
+    <TextView
+            android:id="@+id/activity_course_all_detail_userName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/length_50"
+            android:textSize="@dimen/txt_size_l"
+            android:text="username"
+
+            />
+
+    <TextView
+            android:id="@+id/activity_course_all_detail_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/length_10"
+            />
+
+</RelativeLayout>
