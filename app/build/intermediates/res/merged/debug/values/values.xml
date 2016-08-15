@@ -22,7 +22,7 @@
     <declare-styleable name="CircleImageView"><attr format="dimension" name="border_width"/><attr format="color" name="border_color"/></declare-styleable>
     <declare-styleable name="CustomRefreshGridView"><attr format="integer" name="column_num"/></declare-styleable>
     <declare-styleable name="CustomRefreshListView"><attr format="dimension" name="divider_height"/><attr format="color" name="divider_color"/><attr format="dimension" name="top_padding"/></declare-styleable>
-    <dimen name="BaseTabHeight">50dp</dimen>
+    <dimen name="BaseTabHeight">65dp</dimen>
     <dimen name="BaseTabPaddingTop">15dp</dimen>
     <dimen name="BaseTitleHeight">82dp</dimen>
     <dimen name="RedNumberMarginLeft">12dp</dimen>

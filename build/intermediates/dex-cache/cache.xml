@@ -12,7 +12,7 @@
         jar="E:\ASspace\WowSai\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="cc56564d69fe5aff471510fe8aad3e673ec78f40">
+        sha1="7889db678fb5dad7cbafd6bb24cd4ca68c636066">
         <dex dex="E:\ASspace\WowSai\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_0a697c9a0cb4b6279bc14e843f3f84d2f4552a17\classes.dex" />
     </item>
     <item
@@ -54,7 +54,7 @@
         jar="E:\ASspace\WowSai\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="0ae693cd2b61f7a73f6152a6254febe03c43f342">
+        sha1="85ef70106370ff4dce47217f3c54ba9a97ece6e1">
         <dex dex="E:\ASspace\WowSai\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_c32f2ace463275026987d57508a8cb6e01d6f82e\classes.dex" />
     </item>
     <item

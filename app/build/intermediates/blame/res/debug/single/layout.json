@@ -32,12 +32,12 @@
         "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\layout\\popupwindow_cate.xml"
     },
     {
-        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_course_all_detail_second.xml",
-        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\layout\\item_course_all_detail_second.xml"
-    },
-    {
         "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\layout\\skyblue_editpage_inc_image_layout.xml",
         "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\layout\\skyblue_editpage_inc_image_layout.xml"
+    },
+    {
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_course_all_detail_second.xml",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\layout\\item_course_all_detail_second.xml"
     },
     {
         "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_daren.xml",
@@ -124,20 +124,20 @@
         "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\layout\\item_gridview_topic_home.xml"
     },
     {
-        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_user_release_course.xml",
-        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\layout\\fragment_user_release_course.xml"
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\layout\\skyblue_editpage_at_layout.xml",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\layout\\skyblue_editpage_at_layout.xml"
     },
     {
-        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_campaign.xml",
-        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\layout\\activity_campaign.xml"
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_user_release_course.xml",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\layout\\fragment_user_release_course.xml"
     },
     {
         "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_course_user_detail.xml",
         "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\layout\\activity_course_user_detail.xml"
     },
     {
-        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\layout\\skyblue_editpage_at_layout.xml",
-        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\layout\\skyblue_editpage_at_layout.xml"
+        "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_campaign.xml",
+        "source": "E:\\ASspace\\WowSai\\app\\src\\main\\res\\layout\\activity_campaign.xml"
     },
     {
         "merged": "E:\\ASspace\\WowSai\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_findhome.xml",

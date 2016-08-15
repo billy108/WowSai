@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- 主界面 -->
-    <dimen name="BaseTabHeight">50dp</dimen>
+    <dimen name="BaseTabHeight">65dp</dimen>
     <dimen name="BaseTitleHeight">82dp</dimen>
     <dimen name="TitleHeight">45dp</dimen>
     <dimen name="TitleTabHeight">32dp</dimen>
