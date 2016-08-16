@@ -6,7 +6,6 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,6 +13,7 @@ import android.widget.ExpandableListView;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
 import com.lidroid.xutils.ViewUtils;
 import com.lidroid.xutils.view.annotation.ViewInject;
 import com.qianfeng.wowsai.R;
@@ -24,10 +24,11 @@ import com.qianfeng.wowsai.app.AppCtx;
 import com.qianfeng.wowsai.model.Cates;
 import com.qianfeng.wowsai.model.EventCate;
 import com.qianfeng.wowsai.view.custom.ScllorTabView;
-import de.greenrobot.event.EventBus;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import de.greenrobot.event.EventBus;
 
 /**
  * Created by IntelliJ IDEA
@@ -117,6 +118,7 @@ public class MainFragment extends Fragment implements View.OnClickListener {
 
         expandableListView.setGroupIndicator(null);
         catesList = appCtx.getCatesList();
+
         adapter = new ExpandListViewAdapter(catesList, getActivity());
         expandableListView.setAdapter(adapter);
         expandableListView.setOnChildClickListener(new ExpandableListView.OnChildClickListener() {

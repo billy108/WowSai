@@ -1,0 +1,5 @@
+CHANGED,E:\ASspace\WowSai\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\qianfeng\wowsai\fragment\MainFragment$1$override.class
+CHANGED,E:\ASspace\WowSai\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\qianfeng\wowsai\fragment\MainFragment$2$override.class
+CHANGED,E:\ASspace\WowSai\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\qianfeng\wowsai\fragment\MainFragment$override.class
+CHANGED,E:\ASspace\WowSai\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\qianfeng\wowsai\fragment\MainFragment$3$override.class
+CHANGED,E:\ASspace\WowSai\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class

@@ -4,7 +4,7 @@
     api-level="23"
     density="xxhdpi"
     format="7"
-    timestamp="22846481267447"
+    timestamp="35474463079103"
     token="-7391709447206064457" >
 
     <task
@@ -20,14 +20,11 @@
         name="verifier"
         duration="0" />
 
-    <artifact
-        location="E:\ASspace\WowSai\app\build\outputs\apk\app-debug.apk"
-        type="MAIN" />
-
-    <build timestamp="22846481267447" >
+    <build timestamp="34983535813770" >
         <artifact
-            location="E:\ASspace\WowSai\app\build\outputs\apk\app-debug.apk"
-            type="MAIN" />
+            location="E:\ASspace\WowSai\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+            type="DEX" />
     </build>
+    <build timestamp="35474463079103" />
 
 </instant-run>
